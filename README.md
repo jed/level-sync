@@ -43,7 +43,7 @@ Installation
 API
 ---
 
-### let rs = sync(from, to, options)
+### let rs = sync(from, to, [options])
 
 Syncs data from the `from` store to the `to` store. This works by reading in both stores, diffing them into operations, and then writing the operations to the `to` store, as well as emitting them to the returned readable stream. If the `dryRun` property of the optional `options` object is true, the operations are only emitted, and not written to the target store.
 
