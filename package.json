@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "deep-equal": "^1.0.0",
-    "ordered-kv-tuple-stream": "^1.0.0"
+    "ordered-kv-tuple-stream": "^1.0.1"
   }
 }
