@@ -1,6 +1,6 @@
 {
   "name": "level-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One-way sync for levelup data stores",
   "author": "Jed Schmidt (http://jed.is)",
   "license": "MIT",
