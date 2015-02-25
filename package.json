@@ -1,0 +1,24 @@
+{
+  "name": "level-sync",
+  "version": "1.0.0",
+  "description": "One-way sync for levelup data stores",
+  "author": "Jed Schmidt (http://jed.is)",
+  "license": "MIT",
+  "main": "index.es5.js",
+  "scripts": {
+    "build": "babel index.js > index.es5.js",
+    "test": "babel-node test.js",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel": "^4.4.5",
+    "concat-stream": "^1.4.7",
+    "deep-equal": "^1.0.0",
+    "levelup": "^0.19.0",
+    "memdown": "^1.0.0"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.0",
+    "ordered-kv-tuple-stream": "^1.0.0"
+  }
+}
