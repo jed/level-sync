@@ -2,7 +2,7 @@ import {deepEqual} from "assert"
 import levelup from "levelup"
 import memdown from "memdown"
 import concat from "concat-stream"
-import sync from "./index"
+import sync from "./level-sync"
 
 let hours = {
   old: {FRI: "10-7pm", SAT: "10-7pm"},
